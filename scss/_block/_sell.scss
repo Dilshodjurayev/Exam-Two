@@ -1,0 +1,54 @@
+.wrapper__buy {
+  max-width: 1300px;
+  min-height: 440px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.pey__information {
+  min-height: 480px;
+  max-width: 400px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 10px;
+}
+.img__container {
+  max-width: 400px;
+  max-height: 250px;
+  margin-bottom: 24px;
+}
+.title__container {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.text__buy {
+  margin-bottom: 32px;
+}
+.buy__btn {
+  padding: 5px;
+  border: 0;
+  background-color: white;
+  border-bottom: 3px solid yellow;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .wrapper__buy {
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+    background-color: red;
+  }
+  .pey__information {
+    width: 100%;
+    min-height: 500px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .wrapper__buy {
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+  }
+}

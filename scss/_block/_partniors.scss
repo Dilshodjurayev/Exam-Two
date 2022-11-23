@@ -1,0 +1,31 @@
+.partniors {
+  max-width: 1240px;
+  min-height: 576px;
+  margin: auto;
+  margin-top: 100px;
+}
+.partniors__wrapper {
+  max-width: 900px;
+  min-height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.title__partniors {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 992px) {
+  .partniors__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .partniors__wrapper {
+    width: 50%;
+  }
+}

@@ -1,0 +1,64 @@
+.box__button {
+  flex-direction: column;
+  margin-top: 100px;
+}
+.btn__text {
+  margin-bottom: 40px;
+  color: #6b6b6c;
+}
+.int__wrapper {
+  width: 700px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+  gap: 30px;
+  background: #ffffff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+.int__radio {
+  margin-left: 30px;
+}
+.int__headline {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn__headline {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+.int__note {
+  color: #6b6b6c;
+}
+.head__int__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.line__yellow {
+  margin-top: 25px;
+  border: 2px solid yellow;
+  background-color: yellow;
+}
+@media screen and (max-width: 1200px) {
+  .box__button {
+    flex-direction: column;
+  }
+  .head__int__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) {
+  .head__int__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .head__int__wrapper {
+    width: 50%;
+    flex-direction: column;
+  }
+}
